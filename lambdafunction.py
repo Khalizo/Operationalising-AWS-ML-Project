@@ -10,7 +10,7 @@ logger.setLevel(logging.DEBUG)
 print('Loading Lambda function')
 
 runtime=boto3.Session().client('sagemaker-runtime')
-endpoint_Name='BradTestEndpoint'
+endpoint_Name='operationalise-ml-dog-01'
 
 def lambda_handler(event, context):
 
